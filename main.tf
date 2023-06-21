@@ -1,3 +1,5 @@
+
+
 resource "google_compute_instance" "instance-1" {
   boot_disk {
     auto_delete = true
