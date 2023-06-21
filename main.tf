@@ -53,3 +53,5 @@ resource "google_compute_instance" "instance-1" {
 
   zone = "us-central1-a"
 }
+
+New-Item C:\test.txt
