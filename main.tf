@@ -6,7 +6,7 @@ resource "google_compute_instance" "instance-1" {
     device_name = "instance-1"
 
     initialize_params {
-      image = "projects/windows-cloud/global/images/windows-server-2019-dc-v20230615"
+      image = "projects/windows-sql-cloud/global/images/sql-2014-web-windows-2012-r2-dc-v20230510"
       size  = 50
       type  = "pd-balanced"
     }
